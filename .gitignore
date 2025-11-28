@@ -12,8 +12,7 @@ ENV/
 .ipynb_checkpoints
 
 # Data (si no quieres subir datasets grandes)
-data/raw/*.csv
-data/processed/*.csv
+*.csv
 
 # IDE
 .vscode/
