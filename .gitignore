@@ -208,7 +208,6 @@ __marimo__/
 
 # DATA
 
-data/
 *.csv
 *.xlsx
 *.json
