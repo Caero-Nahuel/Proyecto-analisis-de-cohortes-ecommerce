@@ -11,8 +11,10 @@ ENV/
 # Jupyter
 .ipynb_checkpoints
 
-# Data (si no quieres subir datasets grandes)
-*.csv
+# Ignorar CSVs pero mantener estructura
+data/**/*.csv
+data/**/*.xlsx
+data/**/*.parquet
 
 # IDE
 .vscode/
@@ -28,3 +30,6 @@ Thumbs.db
 # Environment
 .env
 *.log
+
+# Pero NO ignorar .gitkeep
+!.gitkeep
